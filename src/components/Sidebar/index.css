@@ -1,0 +1,60 @@
+.sidebar-bg-container{
+padding-left: 20px;
+padding-top: 20px;
+width: 20%;
+height: 1024px;
+flex-shrink: 0;
+border-right: 1px solid #E2E2E2;
+background: #FFF;
+}
+
+.typography{
+color: #F89A23;
+font-family: Poppins;
+font-size: 19.66px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.Matters{
+color: #02969C;
+font-family: Poppins;
+font-size: 19.66px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.dashboard-heading{
+color: var(--primary-3, #2D60FF);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.sidebar-header{
+    display: flex;
+    align-items: center;
+}
+.sidebar-content{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar-items-menu{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+.profile-section{
+    display: flex;
+    flex-direction: column;
+}
+.logout-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 75px;
+}

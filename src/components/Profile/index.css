@@ -1,0 +1,42 @@
+.profile-bg-container{
+    display: flex;
+    font-family: Roboto;
+}
+.profile-responsive-container{
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+}
+.profile-nav-container{
+    background-color: #ffffff;
+    height: 60px;
+    width: 78lvw;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+.profile-nav-items{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-details-container{
+    background-color: #ffffff;
+    font-family: 'Times New Roman';
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.profile-details-image-container{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.profile-logo{
+    height: 90px;
+    width: 100px;
+}
+.profile-personal-details-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
