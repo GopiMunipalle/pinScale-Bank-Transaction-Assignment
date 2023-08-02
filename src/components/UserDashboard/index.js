@@ -1,10 +1,10 @@
 import {useState,useEffect} from "react"
 import {useParams} from "react-router-dom"
 import Sidebar from "../Sidebar"
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import "./index.css"
 
-function Dashboard(){
+function UserDashboard(){
   const {userId}=useParams();
   console.log(userId)
     const [lastTransactionData,setData]=useState([])
@@ -107,12 +107,17 @@ function Dashboard(){
         fetchDebitApi();
         fetchChartApi();
     },[])
+
+    const addTransaction=()=>{
+        window.alert("Add Transaction")
+    }
     return(
         <div className="Home-bg-container">
             <Sidebar/>
             <div className="Home-responsive-container">
                 <nav className="dashboard-header">
                     <h1>Accounts</h1>
+                    <button type="submit" onClick={addTransaction} className="dashboard-addtran-btn">+ AddTransaction</button>
                 </nav>
                 <div className="dashboard-credit-container">
                   <div className="dashboard-credit-card">
@@ -178,4 +183,4 @@ function Dashboard(){
         </div>
     )
 }
-export default Dashboard;
+export default UserDashboard;

@@ -6,6 +6,8 @@
 .all-tran-main-container{
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
 }
 .all-tran-nav-container{
     display: flex;
@@ -21,13 +23,17 @@
     padding-top: 10px;
 }
 .all-tran-li-items{
-    margin-left: 20px;
     border: none;
     background-color: transparent;
     padding: 10px;
     font-family: Roboto;
     cursor: pointer;
     font-size: 15px;
+    display: flex;
+    margin-left: 15px;
+}
+.items{
+    margin-left: 20px;
 }
 .all-tran-nav-items{
     display: flex;
@@ -38,14 +44,31 @@
     background-color: #ffffff;
     border-radius: 10px;
     margin-top: 20px;
+    border: solid grey;
 }
 .all-tran-tab-details{
     list-style-type: none;
+}
+.all-tran-tabs-heading{
+    font-family: "Roboto";
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .all-tran-tabs{
     border: none;
     background-color: transparent;
     padding: 10px;
-    font-family: Roboto;
+    font-family: "Roboto";
     cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.hr-line{
+    width: 100%;
 }
