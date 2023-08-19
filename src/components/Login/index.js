@@ -67,11 +67,11 @@ function Login(){
                 <img src="https://i.pinimg.com/736x/f4/4e/43/f44e437669d807bf5e4b729515297347.jpg"
                 alt="pinscale" className="login-logo"/>
                 <div className="input-card">
-                    <label for="input">Username</label>
+                    <label for="input">Username pinscale</label>
                     <input className="input" type="email" onChange={onChangeUsername} value={state.username} id="username" placeholeder="Enter username"/>
                 </div>
                 <div className="input-card">
-                    <label htmlFor="password">Password</label>
+                    <label htmlFor="password">Password pinscale</label>
                     <input type="password" className="input" onChange={onChangePassword} value={state.password}  id="password" placeholeder="Enter Password"/>
                 </div>    
                 {state.error && <p className="login-error-msg">{state.error}</p>}
