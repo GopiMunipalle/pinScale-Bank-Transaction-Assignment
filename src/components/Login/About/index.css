@@ -1,0 +1,30 @@
+.about-container{
+    height: 100vh;
+    padding: 20px;
+    font-family: "Roboto";
+    background-color: #ffffff;
+
+}
+@media screen and (max-width:768px) {
+    .about-container{
+        padding: 40px;
+    }
+}
+.heading{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.about-para{
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 20px;
+}
+.about-card{
+    overflow-y: scroll;
+    height: 60vh;
+}
+.link{
+    color: blue;
+    font-size: 17px;
+    margin-bottom: 20px;
+}

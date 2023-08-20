@@ -1,0 +1,58 @@
+.photos-container{
+    background-color: 100vh;
+    padding: 20px;
+    font-family: "Roboto";
+    background-color: #ffffff;
+}
+.photo-card-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 70vh;
+}
+.photo-card-container{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px;
+}
+.photo-heading{
+    font-size: 15px;
+    color: darkolivegreen;
+}
+.photo-item{
+    margin-left: 10px;
+}
+.photos-card{
+    display: flex;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.button-item{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.liked{
+    background-color: blue;
+}
+.image-s{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 5px;
+}

@@ -1,18 +1,19 @@
 import React from 'react';
 import {Routes, Route } from 'react-router-dom';
-import Login from './components/Login'
-import Dashboard from './components/Dashboard';
-import AllTransactions from './components/AllTransactions';
-import Profile from './components/Profile';
-import UserDashboard from './components/UserDashboard';
+import Login from './components/Login';
+import Home from './components/Login/Home';
+import About from "./components/Login/About";
+import Posts from "./components/Login/Posts";
+import Jobs from './components/Login/Jobs';
+
 function App() {
   return (
       <Routes>
         <Route path="/" element={<Login/>} />
-        <Route path="/dashboard/:userId" element={<Dashboard/>} />
-        <Route path='/userdashboard' element={<UserDashboard/>}/>
-        <Route path='/alltransactions' element={<AllTransactions/>}/>
-        <Route path='/profile' element={<Profile/>}/>
+        <Route path='/home' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path="/posts" element={<Posts/>}/>
+        <Route path='/jobs' element={<Jobs/>}/>
       </Routes>  
   );
 }
